@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.kjava.j2meproject</type>
+    <configuration>
+        <configurations xmlns="http://www.netbeans.org/ns/project-configurations/1">
+            <configuration>FreeDemo</configuration>
+            <configuration>L2_L6</configuration>
+            <configuration>Nokia_S40_DP20_SDK_1_0</configuration>
+            <configuration>ProductionBuild</configuration>
+            <configuration>S40ed3fp1</configuration>
+            <configuration>S40ed3fp2</configuration>
+            <configuration>SonyEricsson_K750_Emu</configuration>
+            <configuration>SonyEricsson_P910_Emu</configuration>
+            <configuration>MIDP10</configuration>
+        </configurations>
+        <data xmlns="http://www.netbeans.org/ns/j2me-project">
+            <name>RuMeteo</name>
+            <minimum-ant-version>1.6</minimum-ant-version>
+        </data>
+        <references xmlns="http://www.netbeans.org/ns/ant-project-references/2">
+            <reference>
+                <foreign-project>mobile-appl</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>${project.mobile-appl}/build.xml</script>
+                <target>jar</target>
+                <clean-target>clean</clean-target>
+                <id>jar</id>
+                <properties>
+                    <property name="config.active"/>
+                </properties>
+            </reference>
+            <reference>
+                <foreign-project>mobile-http</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>${project.mobile-http}/build.xml</script>
+                <target>jar</target>
+                <clean-target>clean</clean-target>
+                <id>jar</id>
+                <properties>
+                    <property name="config.active"/>
+                </properties>
+            </reference>
+        </references>
+    </configuration>
+</project>
