@@ -1,7 +1,9 @@
 # RuMeteo
 
-World Weather Informer (RuMeteo) - MIDP Application
+[World Weather Informer (RuMeteo)](http://varankin.by/?page=software/03&lang=en) - MIDP Application
 
 NetBeans project
 
-Requires: ../mobile-appl ../mobile-http
+Requires: 
+[../mobile-appl](https://github.com/nvaranki/mobile-appl) 
+[../mobile-http](https://github.com/nvaranki/mobile-http)
